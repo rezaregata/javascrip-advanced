@@ -27,6 +27,7 @@ let vaan = new Character("vaan", 200);
 let balthier = new Character("vaan", 200);
 
 // versi class
+// di belakang layar yang terjadi seperti prototype
 class Character {
   constructor(name, hitPoint) {
     this.name = name;

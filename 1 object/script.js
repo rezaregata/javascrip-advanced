@@ -1,6 +1,9 @@
 // Membuat object pada Javascript
 // 1. Object Literal
 // Membuat object nya langsung
+// Kelemahan apabila objeknya banyak maka akan memakan banyak resource
+// Tidak efektif untuk objek yang banyak
+
 // let character1 = {
 //   name: "Balthier",
 //   hitPoint: 100,
@@ -22,6 +25,7 @@
 // 2. Function Declaration
 // Tidak perlu buat duplikat dari objeknya
 // Tinggal instansiasinya yang ditambah
+// PROBLEM
 // function Character(name, hitPoint) {
 //   let character = {};
 //   character.name = name;
@@ -47,6 +51,8 @@
 // 3. Constructor Function (keyword new)
 // keyword new
 // mirip function declaration
+// PROBLEM
+//
 function Character(name, hitPoint) {
   this.name = name;
   this.hitPoint = hitPoint;
