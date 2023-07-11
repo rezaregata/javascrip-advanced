@@ -4,11 +4,11 @@
 const methodCharacter = {
   heal: function (potion) {
     this.hitPoint += potion;
-    console.log(`${name} You've been healed`);
+    console.log(`${this.name} You've been healed`);
   },
   attacked: function (damage) {
     this.hitPoint -= damage;
-    console.log(`${name} You've been attacked`);
+    console.log(`${this.name} You've been attacked`);
   },
 };
 
