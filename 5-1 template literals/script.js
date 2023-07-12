@@ -23,3 +23,9 @@ const contoh3 = `string ${nama} ${nipp}`; // embedded expression
 console.log("string 1\nstring 2"); // menggunakan kutip 2
 console.log(`string1
 string 2`); // menggunakan template literal
+console.log(`${alert("halo")}`);
+console.log(`${1 + 3}`);
+console.log(`<div>
+<h1>Html fragments</h1>
+<h2>Html fragments</h1>
+</div>`);
